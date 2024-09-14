@@ -16,7 +16,7 @@ function App() {
   const [selection, setSelection] = useState('');
   const [multiSelection, setMultiSelection] = useState('');
   const [selectedDate, setSelectedDate] = useState(new Date());
-  const dark = 0
+  const dark = 1
 
   const handleFileSelect = (file) => {
     console.log('File selected:', file.name);

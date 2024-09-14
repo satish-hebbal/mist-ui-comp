@@ -4,19 +4,19 @@
 
 @font-face {  
   font-family: "gilory-reg"; 
-  src: url("/assets/gilroyFont/Gilroy-Regular.ttf"); 
+  src: url("/public/gilroyFont/Gilroy-Regular.ttf"); 
 }
 @font-face { 
   font-family: "gilory-semibold"; 
-  src: url("/assets/gilroyFont/Gilroy-SemiBold.ttf"); 
+  src: url("/public/gilroyFont/Gilroy-SemiBold.ttf"); 
 }
 @font-face { 
   font-family: "gilory-bold"; 
-  src: url("/assets/gilroyFont/Gilroy-Bold.ttf"); 
+  src: url("/public/gilroyFont/Gilroy-Bold.ttf"); 
 }
 @font-face { 
   font-family: "gilory-med"; 
-  src: url("/assets/gilroyFont/Gilroy-Medium.ttf"); 
+  src: url("/public/gilroyFont/Gilroy-Medium.ttf"); 
 }
 
 /* Autofill styling for dark mode */

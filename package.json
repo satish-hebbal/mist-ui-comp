@@ -1,6 +1,6 @@
 {
   "name": "mist-ui-comp",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "type": "module",
   "main": "src/index.js",
   "module": "src/index.js",
