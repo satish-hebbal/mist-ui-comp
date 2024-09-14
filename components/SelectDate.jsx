@@ -15,7 +15,7 @@ const SelectDate = ({ selectedDate, onChange, darkMode = false }) => {
                     placeholderText="mm/dd/yyyy"
                     className={`
                         w-full h-12 px-4 py-2 border rounded-sm focus:outline-none focus:ring-2 focus:border-transparent
-                        ${darkMode ? 'bg-zinc-900 border-zinc-700 text-violet-400 focus:ring-violet-600' : 'bg-stone-50 border-violet-300 text-black focus:ring-violet-300'}
+                        ${darkMode ? 'bg-zinc-900 border-zinc-700 text-violet-400 focus:ring-violet-600' : 'bg-stone-50 border-violet-300 text-violet-700 focus:ring-violet-300'}
                     `}
                     popperPlacement="bottom-start"
                     renderCustomHeader={({ monthDate, decreaseMonth, increaseMonth }) => (

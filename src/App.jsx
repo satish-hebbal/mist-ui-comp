@@ -42,7 +42,7 @@ function App() {
     setMultiSelection(newValue);
   };
 
-  const options = ['Option 1'];
+  const options = ['drive to park','walk to park','bi-cycle to park','run to park'];
 
   const [checkboxes, setCheckboxes] = useState({
     option1: false,

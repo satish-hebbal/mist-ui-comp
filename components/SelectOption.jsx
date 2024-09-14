@@ -37,11 +37,11 @@ const SelectOption = ({
         className={`
           flex items-center justify-between w-full font-giloryMed 
           px-4 py-2 rounded cursor-pointer border 
-          ${darkMode ? 'bg-zinc-900 text-violet-400 border-zinc-700 hover:border-zinc-600' : 'bg-stone-50 text-black border-violet-300 hover:border-violet-400'}
+          ${darkMode ? 'bg-zinc-900 text-violet-400 border-zinc-700 hover:border-zinc-600' : 'bg-stone-50 text-violet-700 border-violet-300 hover:border-violet-400'}
         `}
         onClick={handleToggle}
       >
-        <span className={value ? `${darkMode ? 'text-violet-400' : 'text-black'}` : 'text-gray-400'}>
+        <span className={value ? `${darkMode ? 'text-violet-400' : 'text-violet-700'}` : 'text-gray-400'}>
           {value || placeholder || 'Select an option'}
         </span>
         <ChevronDown
