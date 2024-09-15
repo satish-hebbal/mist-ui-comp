@@ -6,7 +6,7 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const SelectDate = ({ selectedDate, onChange, darkMode = false }) => {
     return (
-        <div className={`font-giloryMed gap-2 w-96 ${darkMode ? 'text-violet-400' : 'text-violet-600'}`}>
+        <div className={`font-montserrat gap-2 w-96 ${darkMode ? 'text-violet-400' : 'text-violet-600'}`}>
             <div className="relative">
                 <DatePicker
                     selected={selectedDate}

@@ -49,9 +49,9 @@ const FileUpload = ({
             <div className="flex flex-col items-center justify-center pt-5 pb-6">
               <Upload className={`w-8 h-8 mb-4 ${darkMode ? 'text-violet-400' : 'text-violet-500'}`} />
               <p className={`mb-2 text-sm ${darkMode ? 'text-violet-400' : 'text-violet-500'}`}>
-                <span className="font-giloryMed">{dragDropText}</span>
+                <span className="font-montserrat">{dragDropText}</span>
               </p>
-              <p className={`text-xs font-giloryReg ${darkMode ? 'text-violet-400' : 'text-violet-500'}`}>
+              <p className={`text-xs font-montserrat ${darkMode ? 'text-violet-400' : 'text-violet-500'}`}>
                 Max file size: {maxSize / (1024 * 1024)}MB
               </p>
             </div>
@@ -65,18 +65,18 @@ const FileUpload = ({
           </label>
         </div>
         {file && (
-          <p className={`text-sm font-giloryMed ${darkMode ? 'text-violet-400' : 'text-violet-500'}`}>
+          <p className={`text-sm font-montserrat ${darkMode ? 'text-violet-400' : 'text-violet-500'}`}>
             Selected file: {file.name}
           </p>
         )}
         {error && (
-          <div className="bg-red-100 border font-giloryMed border-red-400 text-red-700 px-4 py-3 rounded-sm relative" role="alert">
+          <div className="bg-red-100 border font-montserrat border-red-400 text-red-700 px-4 py-3 rounded-sm relative" role="alert">
             <span className="block sm:inline">{error}</span>
           </div>
         )}
         <button 
           type="submit" 
-          className={`px-4 py-2 w-full text-white font-giloryMed rounded-sm 
+          className={`px-4 py-2 w-full text-white font-montserrat rounded-sm 
           ${darkMode ? 'bg-violet-600 hover:bg-violet-700 focus:ring-violet-500' : 'bg-violet-500 hover:bg-violet-600 focus:ring-violet-500'} 
           focus:outline-none focus:ring-2 focus:ring-opacity-50`}
         >

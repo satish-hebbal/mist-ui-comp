@@ -12,6 +12,17 @@ export default {
         gilorySemiBold: ['gilory-semibold', 'sans-serif'],
         giloryBold: ['gilory-bold', 'sans-serif'],
         giloryMed: ['gilory-med', 'sans-serif'],
+        montserrat: [
+          "Montserrat",
+          "sans-serif"
+        ],
+      },
+      fontWeight: {
+        
+        'extra-light': 100,
+        'light': 300,
+        'regular': 400,
+        'bold': 700,
       },
       colors: {
         transparent: 'transparent',

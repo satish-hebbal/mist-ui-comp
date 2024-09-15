@@ -2,7 +2,7 @@ import React from 'react';
 
 const RadioButton = ({ label, checked, onChange, name, darkMode = false }) => {
   return (
-    <label className="flex items-center font-giloryMed cursor-pointer">
+    <label className="flex items-center font-montserrat cursor-pointer">
       <div className={`w-5 h-5 border-2 rounded-full mr-2 flex items-center justify-center 
         ${checked 
           ? darkMode 

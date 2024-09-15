@@ -28,7 +28,7 @@ const MultiSelectOption = ({ options, value, onChange, placeholder, darkMode = f
     >
       <div
         className={`
-          flex items-center justify-between w-full font-giloryMed 
+          flex items-center justify-between w-full font-montserrat 
           px-4 py-2 rounded cursor-pointer border
           ${darkMode ? 'bg-zinc-900 text-violet-400 border-zinc-700 hover:border-zinc-600' : 'bg-stone-50 text-black border-violet-300 hover:border-violet-400'}
         `}

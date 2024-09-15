@@ -25,7 +25,7 @@ function TextArea({
           value={inputValue}
           onChange={handleChange}
           className={`
-            px-3 py-2 font-giloryMed border min-w-80 min-h-32 max-w-96 rounded-sm shadow-sm
+            px-3 py-2 font-montserrat border min-w-80 min-h-32 max-w-96 rounded-sm shadow-sm
             ${darkMode ? 'bg-zinc-900 text-violet-400 placeholder-gray-500' : 'bg-stone-50 text-violet-700 placeholder-gray-400'}
             ${darkMode ? 'border-zinc-500' : 'border-gray-300'}
             ${darkMode ? 'focus:bg-zinc-800 focus:border-violet-600' : 'focus:bg-violet-50 focus:border-violet-400'}

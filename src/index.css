@@ -1,22 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @font-face {  
   font-family: "gilory-reg"; 
-  src: url("/public/gilroyFont/Gilroy-Regular.ttf"); 
+  src: url("/gilroyFont/Gilroy-Regular.ttf"); 
 }
 @font-face { 
   font-family: "gilory-semibold"; 
-  src: url("/public/gilroyFont/Gilroy-SemiBold.ttf"); 
+  src: url("/gilroyFont/Gilroy-SemiBold.ttf"); 
 }
 @font-face { 
   font-family: "gilory-bold"; 
-  src: url("/public/gilroyFont/Gilroy-Bold.ttf"); 
+  src: url("/gilroyFont/Gilroy-Bold.ttf"); 
 }
 @font-face { 
   font-family: "gilory-med"; 
-  src: url("/public/gilroyFont/Gilroy-Medium.ttf"); 
+  src: url("/gilroyFont/Gilroy-Medium.ttf"); 
 }
 
 /* Autofill styling for dark mode */
