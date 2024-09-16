@@ -1,22 +1,25 @@
 {
   "name": "mist-ui-comp",
-  "version": "1.0.7",
+  "version": "1.0.21",
   "type": "module",
-  "main": "src/index.js",
-  "module": "src/index.js",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.es.js",
+  "files": ["dist"],
   "private": false,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "prepare": "vite build"
+    "prepare": "npm run build"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
   },
   "dependencies": {
     "lucide-react": "^0.441.0",
-    "react": "^18.3.1",
-    "react-datepicker": "^7.3.0",
-    "react-dom": "^18.3.1"
+    "react-datepicker": "^7.3.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.1",
@@ -26,7 +29,9 @@
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "postcss": "^8.4.45",
     "tailwindcss": "^3.4.11",
-    "vite": "^5.4.5"
+    "vite": "^5.4.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "description": "A React UI component library",
   "repository": {
