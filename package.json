@@ -1,6 +1,6 @@
 {
   "name": "mist-ui-comp",
-  "version": "1.0.21",
+  "version": "1.0.20",
   "type": "module",
   "main": "dist/index.umd.js",
   "module": "dist/index.es.js",
